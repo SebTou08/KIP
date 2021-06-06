@@ -5,3 +5,23 @@
 #madera_modal table td{
     word-break: break-all !important;
   }
+
+#servicios_tres{
+    padding-right: 15%;
+}
+
+#servicios_dos{
+    padding-left: 15%;
+}
+.titulo_modal{
+
+    color:rgb(2, 2, 2);
+}
+
+
+.trabajosDone{
+    @media (min-width: 992px){
+        height: 2550px  !important;
+        min-height: 1500px;
+    }
+}
