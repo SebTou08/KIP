@@ -1,0 +1,7 @@
+.modal_pa{
+    color:rgb(2, 2, 2);
+}
+
+#madera_modal table td{
+    word-break: break-all !important;
+  }
