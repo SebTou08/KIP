@@ -19,7 +19,7 @@
 .navigation-clean-button .navbar-brand {
   font-weight: bold;
   color: inherit;
-  background: url("../../assets/img/Coca-Cola-Logo.wine.png") center / contain no-repeat;
+  background: url("../../assets/img/3m.png") center / contain no-repeat;
   width: 100px;
   height: 100px;
 }
@@ -71,8 +71,31 @@
 }
 
 .nav-item-brand {
-  background: url("../../assets/img/Coca-Cola-Logo.wine.png") center / contain no-repeat;
+  background: url("../../assets/img/3mm.png") center / contain no-repeat;
   width: 100px;
   height: 100px;
 }
 
+.nav-item-brandpanorama{
+  background: url("../../assets/img/panorama-6.svg") center / contain no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-right: 65px;
+
+}
+
+.nav-item-brandsv{
+  background: url("../../assets/img/sv.jpeg") center / contain no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-right: 60px;
+  margin-left: 65px;
+}
+
+.nav-item-brandeulen{
+  background: url("../../assets/img/eulen.jpg") center / contain no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-right: 60px;
+
+}

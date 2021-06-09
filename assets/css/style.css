@@ -25,3 +25,39 @@
         min-height: 1500px;
     }
 }
+
+.serviciosrounded{
+    @media (min-width: 992px){
+        height: 800px  !important;
+        min-height: 1500px;
+    }
+    transform-style: preserve-3d;
+}
+
+#ultimoDiv{
+    background-color:rgb(255, 255, 255);
+}
+
+#ultimoDiv2{
+    background-color:rgb(255, 255, 255);
+}
+
+#ultimoDiv3{    background-color:rgb(255, 255, 255);
+}
+
+#footerDiv{
+    background-color:rgb(253, 253, 253);
+    margin: 0px;
+    padding: 0px;
+}
+@media (min-width: 992px){
+.imagen4{
+
+        height: 535px ;
+    }
+
+}
+
+.zoom-in{cursor:zoom-in;}
+
+.alias {cursor:alias;}
