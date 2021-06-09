@@ -100,3 +100,10 @@
         
     }
 }
+
+@media(min-height:635) and (max-height:780){
+    .lapview{
+        margin-top:350px;
+  
+    }
+}
