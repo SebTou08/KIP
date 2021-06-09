@@ -6,25 +6,14 @@
     word-break: break-all !important;
   }
 
-#servicios_tres{
-    padding-right: 15%;
-}
 
-#servicios_dos{
-    padding-left: 15%;
-}
 .titulo_modal{
 
     color:rgb(2, 2, 2);
 }
 
 
-.trabajosDone{
-    @media (min-width: 992px){
-        height: 2550px  !important;
-        min-height: 1500px;
-    }
-}
+
 
 .serviciosrounded{
     @media (min-width: 992px){
@@ -50,14 +39,64 @@
     margin: 0px;
     padding: 0px;
 }
-@media (min-width: 992px){
-.imagen4{
 
-        height: 535px ;
-    }
-
-}
 
 .zoom-in{cursor:zoom-in;}
 
 .alias {cursor:alias;}
+
+
+@media (min-width: 992px){
+    .imagen4{
+
+        height: 455px ;
+    }
+    .maxiQS{
+        height: 501px;
+        margin-top: 83px;
+        margin-bottom:41px;
+    }
+#servicios_tres{
+    padding-right: 15%;
+}
+
+#servicios_dos{
+    padding-left: 15%;
+}
+}
+
+@media(max-width: 540px){
+    .miniQS{
+        height: 901px;
+        margin-top: 83px;
+        margin-bottom:41px;
+    }
+
+    .imagen4{
+
+        height: 305px ;
+        width: 290px;
+        text-align: center;
+        margin-left: 15%;
+    }
+}
+
+
+@media (min-width:541) and (max-width:991){
+    .miniQS{
+        height: 901px;
+        margin-top: 83px;
+        margin-bottom:41px;
+    }
+
+    .imagen4{
+
+        height: 305px ;
+        width: 250px;
+        min-height: 304;
+        max-height: 306;
+        min-width: 249;
+        max-width: 251;
+        
+    }
+}
