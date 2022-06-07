@@ -4,7 +4,6 @@ popupWhatsApp = () => {
     let btnOpenPopup = document.querySelector('.whatsapp-button');
     let popup = document.querySelector('.popup-whatsapp');
     let sendBtn = document.getElementById('send-btn');
-
     btnClosePopup.addEventListener("click", () => {
         popup.classList.toggle('is-active-whatsapp-popup')
     })
@@ -17,9 +16,7 @@ popupWhatsApp = () => {
     sendBtn.addEventListener("click", () => {
         let msg = document.getElementById('whats-in').value;
         let relmsg = msg.replace(/ /g, "%20");
-
         window.open('https://wa.me/51960110661?text=' + relmsg, '_blank');
-
     });
 
     setTimeout(() => {
